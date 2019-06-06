@@ -10,10 +10,10 @@ Blue Green Infrasctructure with Terraform and AWS
  
 # What your infrastructure will consist of
 
-A Virtual Private Cloud
-Three Subnets, each one in a different Availability Zone
-A Security Group
-Three EC2 Instances serving an NGINX Server on the Port 80 (each one in a different subnet)
+A Virtual Private Cloud<br /> 
+Three Subnets, each one in a different Availability Zone<br /> 
+A Security Group<br /> 
+Three EC2 Instances serving an NGINX Server on the Port 80 (each one in a different subnet)<br /> 
 A Load Balancer pointing to those Instances
  
  ![blue/green](https://cdn-images-1.medium.com/max/800/1*7jSS2x7NpyGaSW5q3DlufA.png)
