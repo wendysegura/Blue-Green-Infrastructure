@@ -8,7 +8,16 @@ Blue Green Infrasctructure with Terraform and AWS
  
  This form of deployment is mostly used for major/breaking changes.
  
+# What your infrastructure will consist of
+
+A Virtual Private Cloud
+Three Subnets, each one in a different Availability Zone
+A Security Group
+Three EC2 Instances serving an NGINX Server on the Port 80 (each one in a different subnet)
+A Load Balancer pointing to those Instances
+ 
  ![blue/green](https://cdn-images-1.medium.com/max/800/1*7jSS2x7NpyGaSW5q3DlufA.png)
+
  
  
 References: https://hackernoon.com/blue-green-infrastructure-with-terraform-d5f9e8f79ed4 
