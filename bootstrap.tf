@@ -9,7 +9,7 @@ provider "aws" {
 terraform {
   backend "s3" {
     encrypt = true
-    bucket  = "terraform-bluegreen"
+    bucket  = "bluegreen-terraform"
     region  = "us-west-2"
     key     = "v1"
   }
